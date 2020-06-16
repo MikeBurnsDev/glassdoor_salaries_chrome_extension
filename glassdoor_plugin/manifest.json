@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Glassdoor Price Index Adjusted Salaries",
+	"version": "1.1",
+	"content_scripts": [{
+		"js": ["content.js"],
+		"matches": ["https://www.glassdoor.com/*"]
+	}],
+	"permissions": [
+		"activeTab"
+	],
+	"short_name":"Glassdoor Adj $"
+}
